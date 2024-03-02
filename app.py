@@ -358,7 +358,7 @@ if selected_viz == "Diabetes Prediction":
 
     # page title
     st.title("Data Visualisation of Diabetes Disease Prediction")
-    df = pd.read_csv("C:/Users/Stemy/Desktop/disease prediction/Disease_Prediction/dataset/diabetes.csv", encoding='latin-1')
+    df = pd.read_csv("diabetes.csv", encoding='latin-1')
     # Generate the HTML using Pygwalker
     pyg_html = pyg.to_html(df)
     # Embed the HTML into the Streamlit app
@@ -368,7 +368,7 @@ if selected_viz == "Heart Disease Prediction":
 
     # page title
     st.title("Data Visualisation of Heart Disease Prediction")
-    df2 = pd.read_csv("C:/Users/Stemy/Desktop/disease prediction/Disease_Prediction/dataset/heart.csv", encoding='latin-1')
+    df2 = pd.read_csv("heart.csv", encoding='latin-1')
     # Generate the HTML using Pygwalker
     pyg_html_1 = pyg.to_html(df2)
     # Embed the HTML into the Streamlit app
@@ -378,7 +378,7 @@ if selected_viz == "Parkinson's Prediction":
 
     # page title
     st.title("Data Visualisation of Parkinson's Disease Prediction")
-    df3 = pd.read_csv("C:/Users/Stemy/Desktop/disease prediction/Disease_Prediction/dataset/parkinsons.csv", encoding='latin-1')
+    df3 = pd.read_csv("parkinsons.csv", encoding='latin-1')
     # Generate the HTML using Pygwalker
     pyg_html_3 = pyg.to_html(df3)
     # Embed the HTML into the Streamlit app

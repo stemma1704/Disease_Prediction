@@ -21,13 +21,13 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 # loading the saved models
 
 # Load the diabetes prediction model
-diabetes_model = pickle.load(open("C:/Users/Stemy/Desktop/disease prediction/Disease_Prediction/saved models/diabetes_model.pkl", 'rb'))
+diabetes_model = pickle.load(open("diabetes_model.pkl", 'rb'))
 
 # Load the heart disease prediction model
-heart_disease_model = pickle.load(open("C:/Users/Stemy/Desktop/disease prediction/Disease_Prediction/saved models/Heart.pkl", 'rb'))
+heart_disease_model = pickle.load(open("Heart.pkl", 'rb'))
 
 # Load the Parkinson's disease prediction model
-parkinsons_model = pickle.load(open("C:/Users/Stemy/Desktop/disease prediction/Disease_Prediction/saved models/Parkinson_model.pkl", 'rb'))
+parkinsons_model = pickle.load(open("Parkinson_model.pkl", 'rb'))
 
 
 st.title("Health Mastery: Navigate Multiple Diseases with Confidence")
